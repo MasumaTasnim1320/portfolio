@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arima', cursive;
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.color {
+    color: crimson;
+}
+
+section {
+    display: flex;
+}
+
+.width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.width img {
+    width: 90%;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(133, 161, 211), rgb(160, 124, 194));
+    padding: 10px 40px;
+    color: rgb(4, 4, 41);
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+.banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
